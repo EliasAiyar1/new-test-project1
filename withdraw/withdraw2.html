@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group Withdraw - WooBloon.com</title>
+</head>
+<body>
+    <div class="center">
+        <div class="top-withdraw">
+            <div class="top-left-withdraw">
+                <h3>YOUR BALANCE</h3>
+                <h3 class="rbx-color">100 R$</h3>
+            </div>
+            <div class="top-right-withdraw">
+                <h3>STOCK</h3>
+                <h3 class="rbx-color">4,215 R$</h3>
+            </div>
+        </div>
+        <div class="bottom-withdraw">
+            <div class="first-box">
+                <h3>How much do you want to withdraw?</h3>
+                <input type="number" name="ramount" id="ramount" class="ramount" placeholder="0 R$" autocomplete="off" min="0" step="1" required/>
+            </div>
+            <div class="second-box">
+                <h3>Select a group:</h3>
+                <div class="rbx-group">
+                    <div class="rbx-group-img">
+                        <img src="groupth.png">
+                    </div>
+                    <div class="rbx-group-text">
+                        <h4>Robux4Rich</h4>
+                        <h5>Stock: 4,215 R$</h5> 
+                    </div>
+                </div>
+            </div>
+            <div class="withdraw-btn">
+                <input type="submit" value="WITHDRAW" id="submit" name="submit"/>
+            </div>
+        </div>
+    </div>
+</body>
+
+    <form id="form" name="form" method="post">
+        <div class="txt_field">
+            <input type="text" name="ramount" id="ramount" class="ramount" placeholder="Amount" required/>
+            <span></span>
+            <label id="user" for="name">Amount</label>
+        </div>
+        <div class="g-recaptcha" data-sitekey="6LdzVt4iAAAAAMHzKjt9_HE_PNejFikF-3uvk4Sx"></div>
+        <br>
+        <input type="submit" value="WITHDRAW" id="submit" name="submit"/>
+        <div class="option">
+        Have you joined the group? <a href="https://www.roblox.com/groups/5624370/Robux4Rich" target="blank_">Link</a>
+        </div>
+    </form>
+    </div>
+
+</html>
+
+<style>
+    @font-face {
+        font-family: "Tommy";
+        src: url(font/MADE\ TOMMY\ Bold_PERSONAL\ USE.ttf);
+    }
+
+    * {
+        margin: 0;
+        font-family: "Tommy", bold;
+        padding: 0;
+    }
+
+    .bottom-withdraw .withdraw-btn {
+        padding-top: 20px;
+        text-align: left;
+        margin-left: 130px;
+    }
+
+    .bottom-withdraw .withdraw-btn input{
+        height: 55px;
+        width: 345px;
+        border-radius: 10px;
+        background-color: #01de33;
+        border: 3px solid hwb(134 0% 36%);;
+        font-size: 20px;
+        padding-left: 10px;
+        color: white;
+        cursor: pointer;
+        transition-duration: 0.7s;
+    }
+
+    .bottom-withdraw .withdraw-btn input:hover{
+        scale: 1.05;
+    }
+
+    body {
+        background-color: #152238;
+    }
+
+    .ramount {
+        margin-top: 5px;
+        height: 55px;
+        width: 330px;
+        border-radius: 10px;
+        background-color: #23395d;
+        border: 2px solid #30415d;
+        font-size: 20px;
+        padding-left: 10px;
+        color: white;
+    }
+
+    input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        display: none;
+      }
+
+    .ramount:focus {
+        border: 2px solid #01de33;
+        outline: none;
+    }
+
+    .center .top-withdraw {
+        margin-top: 190px;
+        text-align: center;
+    }
+
+    .center .top-withdraw .top-left-withdraw .rbx-color{
+        color: #01de33;
+        padding-top: 5px;
+        text-align: left;
+        margin-left: 20px;
+        font-size: 34px;
+    }
+
+    .center .top-withdraw .top-right-withdraw .rbx-color{
+        color: #01de33;
+        padding-top: 5px;
+        text-align: left;
+        margin-left: 20px;
+        font-size: 34px;
+    }
+
+    .center .top-withdraw .top-left-withdraw {
+        width: 300px;
+        height: 106px;
+        background-color: #192841;
+        border-radius: 10px;
+        display: inline-block;
+    }
+
+    .center .top-withdraw .top-left-withdraw h3{
+        color: white;
+        padding-top: 20px;
+        text-align: left;
+        margin-left: 20px;
+    }
+
+    .center .top-withdraw .top-right-withdraw {
+        width: 300px;
+        height: 106px;
+        background-color: #192841;
+        border-radius: 10px;
+        display: inline-block;
+        margin-left: 12px;
+    }
+
+    .center .top-withdraw .top-right-withdraw h3{
+        color: white;
+        padding-top: 20px;
+        text-align: left;
+        margin-left: 20px;
+    }
+
+    .center .bottom-withdraw {
+        width: 612px;
+        height: 360px;
+        background-color: #192841;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .center .bottom-withdraw .first-box {
+        color: white;
+        padding-top: 40px;
+        text-align: left;
+        margin-left: 130px;
+    }
+
+    .center .bottom-withdraw .second-box {
+        color: white;
+        padding-top: 30px;
+        text-align: left;
+        margin-left: 130px;
+    }
+
+    .center .bottom-withdraw .second-box .rbx-group{
+        margin-top: 5px;
+        height: 55px;
+        width: 330px;
+        border-radius: 10px;
+        background-color: #23395d;
+        border: 2px solid #30415d;
+        font-size: 20px;
+        padding-left: 10px;
+        color: white;
+    }
+
+    .center .bottom-withdraw .second-box .rbx-group .rbx-group-text {
+        display: inline-block;
+        vertical-align:top;
+        padding-top: 4px;
+    }
+
+    .center .bottom-withdraw .second-box .rbx-group .rbx-group-text h4{
+        padding-right: 50px;
+    }
+
+    .center .bottom-withdraw .second-box .rbx-group .rbx-group-text h5{
+        color: #01de33;
+    }
+
+    .center .bottom-withdraw .second-box .rbx-group .rbx-group-img {
+        display: inline-block;
+        width: 18%;
+    }
+
+    .center .bottom-withdraw .second-box .rbx-group .rbx-group-img img{
+        width: 45px;
+        height: 45px;
+        padding-top: 6px;
+        border-radius: 10px;
+        margin-left: 5px;
+    }
+</style>
